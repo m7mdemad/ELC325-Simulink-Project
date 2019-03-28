@@ -50,24 +50,24 @@ BPSK is a modulation scheme which shifts the phase of the output signal dependin
 
 ## BPSK without Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/BPSK/Model.png)
+![Model](/BPSK/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/BPSK/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/BPSK/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/BPSK/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/BPSK/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/BPSK/BER-Plot.png)
+![BER-Plot](/BPSK/BER-Plot.PNG)
 
 
 ## BPSK with Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/BPSK-RC/Model.png)
+![Model](/BPSK-RC/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/BPSK-RC/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/BPSK-RC/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/BPSK-RC/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/BPSK-RC/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/BPSK-RC/BER-Plot.png)
+![BER-Plot](/BPSK-RC/BER-Plot.PNG)
 ___
 # **Quadrature Phase-Shift Keying Modulation (QPSK)**
 ## Explanation
@@ -75,24 +75,24 @@ QPSK is a version of PSK in which two bits are modulated at once, selecting one 
 
 ## QPSK without Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/QPSK/Model.png)
+![Model](/QPSK/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/QPSK/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/QPSK/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/QPSK/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/QPSK/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/QPSK/BER-Plot.png)
+![BER-Plot](/QPSK/BER-Plot.PNG)
 
 
 ## QPSK with Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/QPSK-RC/Model.png)
+![Model](/QPSK-RC/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/QPSK-RC/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/QPSK-RC/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/QPSK-RC/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/QPSK-RC/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/QPSK-RC/BER-Plot.png)
+![BER-Plot](/QPSK-RC/BER-Plot.PNG)
 ___
 # **Frequency Shift Keying (FSK)**
 ## Explanation
@@ -100,24 +100,24 @@ FSK is a scheme in which digital bit streams are transmitted through discrete fr
 
 ## FSK without Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/FSK/Model.png)
+![Model](/FSK/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/FSK/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/FSK/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/FSK/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/FSK/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/FSK/BER-Plot.png)
+![BER-Plot](/FSK/BER-Plot.PNG)
 
 
 ## FSK with Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/FSK-RC/Model.png)
+![Model](/FSK-RC/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/FSK-RC/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/FSK-RC/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/FSK-RC/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/FSK-RC/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/FSK-RC/BER-Plot.png)
+![BER-Plot](/FSK-RC/BER-Plot.PNG)
 ___
 
 # **Quadrature Amplitude Modulation (QAM)**
@@ -132,43 +132,43 @@ QAM is a scheme used to transmit two digital bit streams or two analog signals b
 
 ## QAM-16 without Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/QAM16/Model.png)
+![Model](/QAM16/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/QAM16/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/QAM16/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/QAM16/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/QAM16/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/QAM16/BER-Plot.png)
+![BER-Plot](/QAM16/BER-Plot.PNG)
 
 
 ## QAM-16 with Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/QAM16-RC/Model.png)
+![Model](/QAM16-RC/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/QAM16-RC/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/QAM16-RC/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/QAM16-RC/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/QAM16-RC/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/QAM16-RC/BER-Plot.png)
+![BER-Plot](/QAM16-RC/BER-Plot.PNG)
 
 
 ## QAM-64 without Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/QAM64/Model.png)
+![Model](/QAM64/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/QAM64/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/QAM64/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/QAM64/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/QAM64/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/QAM64/BER-Plot.png)
+![BER-Plot](/QAM64/BER-Plot.PNG)
 
 
 ## QAM-64 with Raised Cosine Filter
 ### Simulink Model Diagram:
-![Model](/QAM64-RC/Model.png)
+![Model](/QAM64-RC/Model.PNG)
 ### Scatter Plot (Before Noise)
-![ScatterPlot(BeforeNoise)](/QAM64-RC/ScatterPlot(BeforeNoise).png)
+![ScatterPlot(BeforeNoise)](/QAM64-RC/ScatterPlot(BeforeNoise).PNG)
 ### Scatter Plot (After Noise)
-![ScatterPlot(AfterNoise)](/QAM64-RC/ScatterPlot(AfterNoise).png)
+![ScatterPlot(AfterNoise)](/QAM64-RC/ScatterPlot(AfterNoise).PNG)
 ### BER Performance Plot
-![BER-Plot](/QAM64-RC/BER-Plot.png)
+![BER-Plot](/QAM64-RC/BER-Plot.PNG)
