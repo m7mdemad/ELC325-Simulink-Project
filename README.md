@@ -1,4 +1,4 @@
-# MATLAB Simulink - Communication Toolbox
+# Digita Communications MATLAB Simulink Project
 Simulation and performance evaluation of the following modulation schemes in an Additive White Gaussian Noise (AWGN) envrionment:
 - **Binary Phase-Shift Keying (BPSK)**
 - **Quadrature Phase-Shift Keying (QPSK)**
