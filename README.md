@@ -7,40 +7,40 @@ Simulation and performance evaluation of the following modulation schemes in an 
 ---
 
 # Common steps to reproduce the simulation model:
-- Open MATLAB, run the "simulink" command from the command window. 
-- In the Simulink window, click on "New Model".
-- Click on "Library Browser" and drag and drop the required blocks:
+- Open MATLAB, run the ```simulink``` command from the command window. 
+- In the Simulink window, click on ```New Model```.
+- Click on ```Library Browser``` and drag and drop the required blocks:
     * Modulator Baseband (Scheme Dependent)
     * Demodulator Baseband (Scheme Dependent)
     * Random Integer Generator (See Note 1)
-    * AWGN channel (set noise level to EbNo)
+    * AWGN channel (set noise level to ```EbNo```)
     * Raised Cosine Transmit Filter
     * Raised Cosine Receive Filter
     * Constellation Diagram (x2)
     * Error Rate Calculation
     * Display
-    * To Workspace (set the name to "ber")
+    * To Workspace (set the name to ```ber```)
 - Connect the blocks as shown in the screenshots using drag and drop.
-- Set the simulation period to 100000 *(With Raised Cosine Filters, it was set to 10000)*. 
+- Set the simulation period to ```100000``` *(With Raised Cosine Filters, it was set to ```10000```)*. 
 - For QAM, there are more steps in the QAM section.
-- Save the model using Ctrl+S.
+- Save the model using ```Ctrl+S```.
 
 
 
 # Common steps to reproduce the simulation model:
-- Run the "bertool" command from the MATLAB command window.
-- In the BER Tool window, set the E<sub>b</sub>/N<sub>0</sub> range to -10:10
+- Run the ```bertool``` command from the MATLAB command window.
+- In the ```BER Tool``` window, set the E<sub>b</sub>/N<sub>0</sub> range to ```-10:10```
 - Choose the modulation scheme from the dropdown menu
-- Set the modulation index (See Note 2) and click "Plot"
-- Open the Monte Carlo tab, set the E<sub>b</sub>/N<sub>0</sub> range to -10:10
-- Set the variable name to "ber"
-- Choose the model file using the "Browse" button and click "Run"
+- Set the modulation index (See Note 2) and click ```Plot```
+- Open the ```Monte Carlo``` tab, set the E<sub>b</sub>/N<sub>0</sub> range to ```-10:10```
+- Set the variable name to ```ber```
+- Choose the model file using the "Browse" button and click ```Run```
 
-Note 1: Random Generator Set Size and Modulation Index should be set to the same value for each scheme. BPSK/FSk: 2, QPSK: 4, QAM: 16 or 64.
+Note 1: Random Generator Set Size and Modulation Index should be set to the same value for each scheme. BPSK/FSk: ```2```, QPSK: ```4```, QAM: ```16``` or ```64```.
 
 Note 2: Scatter plots are produced at a noise level of 10 dB.
 
-Note 3: This project was created using MATLAB R2016a. Unless otherwise stated, all values are left to the default setting (e.g. Initial Seed in the AWGN Channel block is set to 67) 
+Note 3: This project was created using MATLAB R2016a. Unless otherwise stated, all values are left to the default setting (e.g. Initial Seed in the AWGN Channel block is set to ```67```) 
 
 ---
 # **Binary Phase-Shift Keying Modulation (BPSK)**
@@ -71,7 +71,8 @@ BPSK is a modulation scheme which shifts the phase of the output signal dependin
 ___
 # **Quadrature Phase-Shift Keying Modulation (QPSK)**
 ## Explanation
-QPSK is a version of PSK in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0&deg;, 90&deg;, 180&deg;, or 270&deg;). QPSK doubles the bandwidth efficiency.
+QPSK (A.K.A. Double Side Band Suppressed Carrier) is a variation of PSK in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0&deg;, 90&deg;, 180&deg;, or 270&deg;). QPSK doubles the bandwidth efficiency.
+
 
 ## QPSK without Raised Cosine Filter
 ### Simulink Model Diagram:
@@ -96,7 +97,7 @@ QPSK is a version of PSK in which two bits are modulated at once, selecting one 
 ___
 # **Frequency Shift Keying (FSK)**
 ## Explanation
-FSK is a scheme in which digital bit streams are transmitted through discrete frequency shifts of a carrier signal.
+FSK is a digital modulation scheme in which the frequency of the carrier signal varies according to the digital signal changes. The output of a FSK-modulated wave is high in frequency for a binary High input and is low in frequency for a binary Low input.
 
 ## FSK without Raised Cosine Filter
 ### Simulink Model Diagram:
@@ -126,8 +127,8 @@ QAM is a scheme used to transmit two digital bit streams or two analog signals b
 
 ## Extra simulation steps
 - Click on the QAM Modulator Baseband block
-- Set the M-ary number to 16 or 64
-- Set the Normalization method to Average Power
+- Set the M-ary number to ```16``` or ```64```
+- Set the Normalization method to ```Average Power```
 
 
 ## QAM-16 without Raised Cosine Filter
