@@ -1,4 +1,4 @@
-# Digita Communications MATLAB Simulink Project
+# Digital Communications MATLAB Simulink Project
 Simulation and performance evaluation of the following modulation schemes in an Additive White Gaussian Noise (AWGN) envrionment:
 - **Binary Phase-Shift Keying (BPSK)**
 - **Quadrature Phase-Shift Keying (QPSK)**
@@ -12,16 +12,16 @@ Simulation and performance evaluation of the following modulation schemes in an 
 - Click on ```Library Browser``` and drag and drop the required blocks:
     * Modulator Baseband (Scheme Dependent)
     * Demodulator Baseband (Scheme Dependent)
-    * Random Integer Generator (See Note 1)
-    * AWGN channel (set noise level to ```EbNo```)
-    * Raised Cosine Transmit Filter
-    * Raised Cosine Receive Filter
-    * Constellation Diagram (x2)
-    * Error Rate Calculation
-    * Display
-    * To Workspace (set the name to ```ber```)
+    * ```Random Integer Generator``` (See Note 1)
+    * ```AWGN channel``` (set noise level to ```EbNo```)
+    * ```Raised Cosine Transmit Filter```
+    * ```Raised Cosine Receive Filter```
+    * ```Constellation Diagram``` (x2)
+    * ```Error Rate Calculation```
+    * ```Display```
+    * ```To Workspace``` (set the name to ```ber```)
 - Connect the blocks as shown in the screenshots using drag and drop.
-- Set the simulation period to ```100000``` *(With Raised Cosine Filters, it was set to ```10000```)*. 
+- Set the ```Simulation period``` to ```100000``` *(With Raised Cosine Filters, it was set to ```10000```)*. 
 - For QAM, there are more steps in the QAM section.
 - Save the model using ```Ctrl+S```.
 
@@ -31,16 +31,16 @@ Simulation and performance evaluation of the following modulation schemes in an 
 - Run the ```bertool``` command from the MATLAB command window.
 - In the ```BER Tool``` window, set the E<sub>b</sub>/N<sub>0</sub> range to ```-10:10```
 - Choose the modulation scheme from the dropdown menu
-- Set the modulation index (See Note 2) and click ```Plot```
+- Choose the ```Modulation Index``` (See Note 2) and click ```Plot```
 - Open the ```Monte Carlo``` tab, set the E<sub>b</sub>/N<sub>0</sub> range to ```-10:10```
-- Set the variable name to ```ber```
-- Choose the model file using the "Browse" button and click ```Run```
+- Set the ```Variable name``` to ```ber```
+- Choose the model file using the ```Browse``` button and click ```Run```
 
-Note 1: Random Generator Set Size and Modulation Index should be set to the same value for each scheme. BPSK/FSk: ```2```, QPSK: ```4```, QAM: ```16``` or ```64```.
+Note 1: ```Random Generator Set Size``` and ```Modulation Index``` should be set to the same value for each scheme. BPSK/FSk: ```2```, QPSK: ```4```, QAM: ```16``` or ```64```.
 
-Note 2: Scatter plots are produced at a noise level of 10 dB.
+Note 2: Scatter plots are produced at a noise level of ```10 dB```.
 
-Note 3: This project was created using MATLAB R2016a. Unless otherwise stated, all values are left to the default setting (e.g. Initial Seed in the AWGN Channel block is set to ```67```) 
+Note 3: This project was created using MATLAB R2016a. Unless otherwise stated, all values are left to the default setting (e.g. ```Initial Seed``` in the ```AWGN Channel``` block is set to ```67```) 
 
 ---
 # **Binary Phase-Shift Keying Modulation (BPSK)**
@@ -126,9 +126,9 @@ ___
 QAM is a scheme used to transmit two digital bit streams or two analog signals by modulating the amplitudes of two carrier waves so that they differ in phase by 90&deg;. The two signals can be mathematically represented by a sine and a cosine wave.
 
 ## Extra simulation steps
-- Click on the QAM Modulator Baseband block
-- Set the M-ary number to ```16``` or ```64```
-- Set the Normalization method to ```Average Power```
+- Click on the ```QAM Modulator Baseband``` block
+- Set the ```M-ary number``` to ```16``` or ```64```
+- Set the ```Normalization method``` to ```Average Power```
 
 
 ## QAM-16 without Raised Cosine Filter
