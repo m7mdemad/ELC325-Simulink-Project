@@ -45,7 +45,7 @@ Note 3: This project was created using MATLAB R2016a. Unless otherwise stated, a
 ---
 # **Binary Phase-Shift Keying Modulation (BPSK)**
 ## Explanation
-BPSK is a modulation scheme which shifts the phase of the output signal depending on the input. The input is binary and the 0’s and 1’s are represented by two different phase states in the carrier signal. The phase difference is 180 degrees.
+BPSK is a modulation scheme which shifts the phase of the output signal depending on the input. The input is binary and the zeros and ones are represented by two different phase states in the carrier signal. The phase difference is 180 degrees.
 
 
 ## BPSK without Raised Cosine Filter
