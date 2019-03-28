@@ -71,7 +71,7 @@ BPSK is a modulation scheme which shifts the phase of the output signal dependin
 ___
 # **Quadrature Phase-Shift Keying Modulation (QPSK)**
 ## Explanation
-QPSK (A.K.A. Double Side Band Suppressed Carrier) is a variation of PSK in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0&deg;, 90&deg;, 180&deg;, or 270&deg;). QPSK doubles the bandwidth efficiency.
+QPSK (A.K.A. Double Side Band Suppressed Carrier) is a variation of PSK in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0&deg;, 90&deg;, 180&deg;, or 270&deg;). QPSK doubles the bandwidth efficiency leaving more space for other users.
 
 
 ## QPSK without Raised Cosine Filter
