@@ -171,4 +171,4 @@ QAM is a scheme used to transmit two digital bit streams or two analog signals b
 ### Scatter Plot (After Noise)
 ![Scatter Plot (Before Noise)](/QAM64-RC/ScatterPlot(AfterNoise).png)
 ### BER Performance Plot
-![BER Performance Plot](QAM64-RC/BER-Plot.png)
+![BER Performance Plot](https://github.com/WalidHella/ELC325-Simulink-Project/blob/master/QAM64-RC/BER-Plot.png)
